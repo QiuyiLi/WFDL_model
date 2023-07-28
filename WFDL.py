@@ -9,8 +9,9 @@ species_tree=[(2000,[(5000,[(8000,[])])])] # caterpillar
 # species_tree=[(2000,[(5000,[])]),(8000,[])] # balanced
 # species_tree=[(0,[])] # naive species tree of only one leaf
 
+dup_rate_base = 10**(-6)
 dup_rate_scale = 1
-dup_rate= dup_rate_scale * 10**(-6)
+dup_rate = dup_rate_scale * dup_rate_base
 # dup_rate_per_coalescent_unit = dup_rate*population_size
 
 n_rep = 1000000
