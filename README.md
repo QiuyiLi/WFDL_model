@@ -35,8 +35,14 @@ n_rep = 1000000
 ```
 By WF model, the survival probability of a duplication is O(1/N), therefore the number of sampled duplications is supposed to be around n_rep/population_size.
 
-Then, to execute the code:
+To execute the code:
 ```
 python3 WFDL.py
 ```
 
+Output:
+```
+first order dups:  1113
+higher order dups:  1
+total dup number:  1114
+```
